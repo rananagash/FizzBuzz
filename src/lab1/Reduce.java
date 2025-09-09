@@ -5,7 +5,7 @@ public class Reduce {
         System.out.println(reduce(100));
     }
 
-    static int reduce(int n) {
+    public static int reduce(int n) {
         int steps = 0;
         while (n > 0) {
             if (n % 2 == 0){
@@ -21,7 +21,7 @@ public class Reduce {
     }
 
     // overloaded
-    static int reduce() {
+    public static int reduce() {
         return reduce(100);
     }
 
